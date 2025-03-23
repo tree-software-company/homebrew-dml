@@ -10,7 +10,7 @@ class Dml < Formula
     libexec.install "DML-all.jar"
     (bin/"dml").write <<~EOS
       #!/bin/bash
-      exec java -jar "\#{libexec}/DML-all.jar" "$@"
+      exec java -jar "#{libexec}/DML-all.jar" "$@"
     EOS
   end
 
