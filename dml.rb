@@ -3,7 +3,7 @@ class Dml < Formula
   homepage "https://github.com/tree-software-company/DML"
   url "https://github.com/tree-software-company/DML/releases/download/0.7.0/DML-all.jar"
   version "0.7.0"
-  sha256 "b6ebe482558fdf3629aada5f521d1485d6f792c79bcf0ccb1c51c884113cde11"
+  sha256 "1d3638607626c57c212d38b069b257121d62a42dc243085ad45a8f229cbe81d4"
   license "Apache-2.0"
 
   def install
