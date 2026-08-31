@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# keys and credentials
+.env
+.env.*
+*.pem
+*.key
+*.token
+secrets/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
