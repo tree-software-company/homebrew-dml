@@ -15,6 +15,6 @@ class Dml < Formula
   end
 
   test do
-    assert_match "DML Command Line Interface", shell_output("\#{bin}/dml help")
+    assert_match "DML Command Line Interface", shell_output("#{bin}/dml help")
   end
 end
