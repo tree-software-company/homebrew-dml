@@ -1,8 +1,8 @@
 class Dml < Formula
   desc "Custom DSL for data definition like JSON, with Kotlin & ANTLR"
   homepage "https://github.com/tree-software-company/DML"
-  url "https://github.com/tree-software-company/DML/releases/download/0.8.1/DML-all.jar"
-  sha256 "ce6ed0f4fbb277937812fef53a82526a55f1b0dcd2b4f4692c92cd81a45bd9fd"
+  url "https://github.com/tree-software-company/DML/releases/download/0.8.2/DML-all.jar"
+  sha256 "e0167be1b1063455d74cb5fdf9c44cd320692a30b39b47f369cbc00e8bac07a1"
   license "Apache-2.0"
 
   depends_on "openjdk@17"
