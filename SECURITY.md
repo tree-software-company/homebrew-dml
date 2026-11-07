@@ -27,7 +27,7 @@ git log --show-signature -5 main
 - Commits written by the maintainer are signed with this SSH key:
 
 ```
-SHA256:/tQo2/Q+UdxaJL3irGHXBIuh9Hd/Q5m8pOu1ZSOKod8 (ED25519)
+SHA256:fOeiKl8Pmxv1wOuNwUHP+NEb9IFqoGAxBhoDb29bZvI (RSA 4096)
 ```
 
 To verify them with `git`, take the public key from `https://api.github.com/users/simon04PL/ssh_signing_keys`, check with `ssh-keygen -lf` that its fingerprint equals the one above, write it to a file named `allowed_signers` in the form `<email> <key-type> <key>`, then:
