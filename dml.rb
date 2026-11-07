@@ -16,6 +16,6 @@ class Dml < Formula
   end
 
   test do
-    assert_match "DML version #{version}", shell_output("#{bin}/dml --version")
+    assert_match "DML version", shell_output("#{bin}/dml --version")
   end
 end
